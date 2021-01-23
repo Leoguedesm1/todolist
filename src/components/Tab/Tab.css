@@ -1,0 +1,9 @@
+.Tab {
+    display: flex;
+    flex-direction: row;
+    flex-flow: row wrap;
+    align-content: center;
+    justify-content: center;   
+    padding: 15px;
+}
+

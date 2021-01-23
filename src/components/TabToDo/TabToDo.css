@@ -1,0 +1,22 @@
+@media screen and (max-width: 540px) {
+    .TabToDo {
+        display: block;
+        flex-direction: column;
+        align-content: center;
+        justify-content: space-between;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+}
+
+@media screen and (min-width: 540px) {
+    .TabToDo {
+        display: block;
+        flex-direction: column;
+        align-content: center;
+        justify-content: space-between;
+        width: 50%;
+    }
+}
+
+
