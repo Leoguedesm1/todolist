@@ -9,8 +9,9 @@ class TabComplete extends Component {
             <div className="TabComplete">
                 <h2>Completed Tasks</h2>
                 <ItemList
-                    items={[{text: 'Teste Item List'}, {text: 'Teste Item List'}, {text: 'Teste Item List'}, {text: 'Teste Item List'}, {text: 'Teste Item List'}, {text: 'Teste Item List'}, {text: 'Teste Item List'}, {text: 'Teste Item List'}, {text: 'Teste Item List'}, {text: 'Teste Item List'}, {text: 'Teste Item List'}, {text: 'Teste Item List'}, {text: 'Teste Item List'}, {text: 'Teste Item List'}, {text: 'Teste Item List'}, {text: 'Teste Item List'}, {text: 'Teste Item List'}, {text: 'Teste Item List'}, {text: 'Teste Item List'}, {text: 'Teste Item List'}, {text: 'Teste Item List'}, {text: 'Teste Item List'}, {text: 'Teste Item List'}, {text: 'Teste Item List'}, {text: 'Teste Item List'}, {text: 'Teste Item List'}, {text: 'Teste Item List'}, {text: 'Teste Item List'}, {text: 'Teste Item List'}, ]} 
-                    complete
+                    items={this.props.items} 
+                    undo={this.props.undo}
+                    delete={this.props.delete}
                 />
             </div>
         )

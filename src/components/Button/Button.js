@@ -11,7 +11,9 @@ class Button extends Component {
         return (
             <button 
                 className="Button" 
-                onClick={this.props.onClick}>
+                onClick={this.props.onClick}
+                disabled={this.props.disabled}
+            >
                     { this.props.text }
                     { this.props.undo && <FaUndoAlt /> }
                     { this.props.edit && <FaRegEdit />}

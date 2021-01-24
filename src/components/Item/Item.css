@@ -16,6 +16,12 @@
     width: 30%;  
 }
 
+.Item-input {
+    border-width: 0;
+    border-bottom-width: 1px;
+    font-size: medium;
+}
+
 .Item-text {
     width: 70%;
     color: black;

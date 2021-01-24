@@ -9,8 +9,10 @@ class TabToDo extends Component {
             <div className="TabToDo">
                 <h2>To do Tasks</h2>
                 <ItemList
-                    items={[{text: 'Teste Item List'}, {text: 'Teste Item List'}, {text: 'Teste Item List'}, {text: 'Teste Item List'}, {text: 'Teste Item List'}, {text: 'Teste Item List'}, {text: 'Teste Item List'}, {text: 'Teste Item List'}, {text: 'Teste Item List'}, {text: 'Teste Item List'}, {text: 'Teste Item List'}, {text: 'Teste Item List'}, {text: 'Teste Item List'}, {text: 'Teste Item List'}, {text: 'Teste Item List'}, {text: 'Teste Item List'}, {text: 'Teste Item List'}, {text: 'Teste Item List'}, {text: 'Teste Item List'}, {text: 'Teste Item List'}, {text: 'Teste Item List'}, {text: 'Teste Item List'}, {text: 'Teste Item List'}, {text: 'Teste Item List'}, {text: 'Teste Item List'}, {text: 'Teste Item List'}, {text: 'Teste Item List'}, {text: 'Teste Item List'}, {text: 'Teste Item List'}, ]} 
-                    todo
+                    items={this.props.items}
+                    edit={this.props.edit}
+                    complete={this.props.complete}
+                    delete={this.props.delete}
                 />
             </div>
         )
